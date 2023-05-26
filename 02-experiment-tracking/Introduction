@@ -1,1 +1,7 @@
-
+# What is experiment Tracking ?
+Experment Tracking is the process of keeping track of all the relevent information from an ML experiment, Which include
+* Source code
+* Enviroment
+* Data
+* Hyperparameters
+* metrics, source code , the version ..
