@@ -1,0 +1,6 @@
+artifact_location: file:///root/MLOPS/02-experiment-tracking/homework/mlruns/545578215163875478
+creation_time: 1685288971650
+experiment_id: '545578215163875478'
+last_update_time: 1685288971650
+lifecycle_stage: active
+name: RandomForestRegressor

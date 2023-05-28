@@ -1,0 +1,52 @@
+{
+    "os": "Linux-6.2.0-20-generic-x86_64-with-glibc2.37",
+    "python": "3.9.16",
+    "heartbeatAt": "2023-05-28T14:52:40.174101",
+    "startedAt": "2023-05-28T14:52:40.067873",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--raw_data_path",
+        "./data",
+        "--dest_path",
+        "./output"
+    ],
+    "state": "running",
+    "program": "/root/MLOPS/02-experiment-tracking/homework/preprocess_data.py",
+    "codePath": "02-experiment-tracking/homework/preprocess_data.py",
+    "git": {
+        "remote": "https://github.com/rameshawasthi/MLOPS.git",
+        "commit": "90d07c3ce5712d1d76f195286ebe5b4d2a71f5b1"
+    },
+    "email": null,
+    "root": "/root/MLOPS",
+    "host": "root",
+    "username": "root",
+    "executable": "/root/anaconda3/envs/homework-2-env/bin/python",
+    "cpu_count": 2,
+    "cpu_count_logical": 2,
+    "cpu_freq": {
+        "current": 2399.998,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2399.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2399.998,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "total": 117.55523681640625,
+        "used": 27.547710418701172
+    },
+    "memory": {
+        "total": 23.45498275756836
+    }
+}
