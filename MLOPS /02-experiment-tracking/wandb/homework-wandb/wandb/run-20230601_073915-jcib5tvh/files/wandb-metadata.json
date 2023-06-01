@@ -1,0 +1,64 @@
+{
+    "os": "Linux-5.15.0-1038-azure-x86_64-with-glibc2.31",
+    "python": "3.9.16",
+    "heartbeatAt": "2023-06-01T07:39:15.928364",
+    "startedAt": "2023-06-01T07:39:15.239844",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--wandb_project",
+        "demo_project",
+        "--wandb_entity",
+        "rmh-awasthi",
+        "--data_artifact",
+        "demo_project/rmh-awasthi/NYC-Taxi:v0"
+    ],
+    "state": "running",
+    "program": "/workspaces/codespaces-jupyter/homework-wandb/sweep.py",
+    "codePath": "homework-wandb/sweep.py",
+    "git": {
+        "remote": null,
+        "commit": "c8148aff4c4eb2af0d62d2c83e76ff99590f34ac"
+    },
+    "email": "135200105+himele@users.noreply.github.com",
+    "root": "/workspaces/codespaces-jupyter",
+    "host": "codespaces-df2904",
+    "username": "codespace",
+    "executable": "/opt/conda/envs/wandb-env/bin/python",
+    "cpu_count": 2,
+    "cpu_count_logical": 4,
+    "cpu_freq": {
+        "current": 2593.905,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2593.905,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2593.905,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2593.905,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2593.905,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "total": 30.45098876953125,
+        "used": 15.70135498046875
+    },
+    "memory": {
+        "total": 7.7651214599609375
+    }
+}

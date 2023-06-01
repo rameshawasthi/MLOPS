@@ -1,0 +1,34 @@
+2023-06-01 07:39:25,690 INFO    Thread-9  :10995 [wandb_setup.py:_flush():76] Current SDK version is 0.15.3
+2023-06-01 07:39:25,690 INFO    Thread-9  :10995 [wandb_setup.py:_flush():76] Configure stats pid to 10995
+2023-06-01 07:39:25,690 INFO    Thread-9  :10995 [wandb_setup.py:_flush():76] Loading settings from /home/codespace/.config/wandb/settings
+2023-06-01 07:39:25,690 INFO    Thread-9  :10995 [wandb_setup.py:_flush():76] Loading settings from /workspaces/codespaces-jupyter/homework-wandb/wandb/settings
+2023-06-01 07:39:25,690 INFO    Thread-9  :10995 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'entity': 'rmh-awasthi', 'project': 'demo_project', 'root_dir': '/workspaces/codespaces-jupyter/homework-wandb', 'run_id': 'dv8ww4zp', 'sweep_param_path': '/workspaces/codespaces-jupyter/homework-wandb/wandb/sweep-ez83h6iq/config-dv8ww4zp.yaml', 'sweep_id': 'ez83h6iq'}
+2023-06-01 07:39:25,690 INFO    Thread-9  :10995 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-06-01 07:39:25,690 INFO    Thread-9  :10995 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'homework-wandb/sweep.py', 'program': '/workspaces/codespaces-jupyter/homework-wandb/sweep.py'}
+2023-06-01 07:39:25,690 INFO    Thread-9  :10995 [wandb_init.py:_log_setup():507] Logging user logs to /workspaces/codespaces-jupyter/homework-wandb/wandb/run-20230601_073925-dv8ww4zp/logs/debug.log
+2023-06-01 07:39:25,690 INFO    Thread-9  :10995 [wandb_init.py:_log_setup():508] Logging internal logs to /workspaces/codespaces-jupyter/homework-wandb/wandb/run-20230601_073925-dv8ww4zp/logs/debug-internal.log
+2023-06-01 07:39:25,690 INFO    Thread-9  :10995 [wandb_init.py:init():547] calling init triggers
+2023-06-01 07:39:25,691 INFO    Thread-9  :10995 [wandb_init.py:init():554] wandb.init called with sweep_config: {'max_depth': 20, 'min_samples_leaf': 2, 'min_samples_split': 3, 'n_estimators': 37}
+config: {}
+2023-06-01 07:39:25,691 INFO    Thread-9  :10995 [wandb_init.py:init():596] starting backend
+2023-06-01 07:39:25,691 INFO    Thread-9  :10995 [wandb_init.py:init():600] setting up manager
+2023-06-01 07:39:25,695 INFO    Thread-9  :10995 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-06-01 07:39:25,699 INFO    Thread-9  :10995 [wandb_init.py:init():606] backend started and connected
+2023-06-01 07:39:25,704 INFO    Thread-9  :10995 [wandb_run.py:_config_callback():1286] config_cb None None {'max_depth': 20, 'min_samples_leaf': 2, 'min_samples_split': 3, 'n_estimators': 37}
+2023-06-01 07:39:25,706 INFO    Thread-9  :10995 [wandb_init.py:init():700] updated telemetry
+2023-06-01 07:39:25,716 INFO    Thread-9  :10995 [wandb_init.py:init():737] communicating run to backend with 60.0 second timeout
+2023-06-01 07:39:26,295 INFO    Thread-9  :10995 [wandb_run.py:_on_init():2177] communicating current version
+2023-06-01 07:39:26,322 INFO    Thread-9  :10995 [wandb_run.py:_on_init():2186] got version response 
+2023-06-01 07:39:26,323 INFO    Thread-9  :10995 [wandb_init.py:init():787] starting run threads in backend
+2023-06-01 07:39:27,715 INFO    Thread-9  :10995 [wandb_run.py:_console_start():2158] atexit reg
+2023-06-01 07:39:27,715 INFO    Thread-9  :10995 [wandb_run.py:_redirect():2013] redirect: SettingsConsole.WRAP_RAW
+2023-06-01 07:39:27,715 INFO    Thread-9  :10995 [wandb_run.py:_redirect():2078] Wrapping output streams.
+2023-06-01 07:39:27,715 INFO    Thread-9  :10995 [wandb_run.py:_redirect():2103] Redirects installed.
+2023-06-01 07:39:27,716 INFO    Thread-9  :10995 [wandb_init.py:init():829] run started, returning control to user process
+2023-06-01 07:39:27,969 INFO    Thread-9  :10995 [wandb_run.py:_finish():1893] finishing run rmh-awasthi/demo_project/dv8ww4zp
+2023-06-01 07:39:27,969 INFO    Thread-9  :10995 [wandb_run.py:_atexit_cleanup():2127] got exitcode: 1
+2023-06-01 07:39:27,969 INFO    Thread-9  :10995 [wandb_run.py:_restore():2110] restore
+2023-06-01 07:39:27,970 INFO    Thread-9  :10995 [wandb_run.py:_restore():2116] restore done
+2023-06-01 07:39:31,290 INFO    Thread-9  :10995 [wandb_run.py:_footer_history_summary_info():3469] rendering history
+2023-06-01 07:39:31,290 INFO    Thread-9  :10995 [wandb_run.py:_footer_history_summary_info():3501] rendering summary
+2023-06-01 07:39:31,293 INFO    Thread-9  :10995 [wandb_run.py:_footer_sync_info():3428] logging synced files
